@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.carre {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(136, 174, 136);
+    color: white;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
