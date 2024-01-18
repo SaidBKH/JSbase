@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.range {
+    display: flex;
+    flex-direction: column;
+}
+
+.carre {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    transition: transform 1s; 
+
+}
+
+.carre.rouge {
+    background-color: red;
+    transform: scale(0.9) rotate(360deg); 
+
+}

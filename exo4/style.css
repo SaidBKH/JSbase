@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: grey; 
+}
+
+#background {
+    display: flex;
+    flex-direction: row; 
+}
+
+.icon-container {
+    margin: 15px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition:all 1s;
+    ;
+}
+
+.icon i {
+    color: white; 
+}
+
+.icon.clicked {
+    transform: rotate(360deg) scale(1.2);
+    border-radius: 5px;
+    border: solid 1px white;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px; */
+    transition:all 1s;
+}
+
+.icon.clicked .social-name {
+    color: white;
+ 
+}
+
+.social-name {
+    display: none; 
+   
+}
+
+.facebook {
+    background-color: rgb(29, 68, 148)
+}
+
+.twitter {
+    background-color: rgb(48, 156, 227)
+}
+
+.instagram {
+    background-color: rgb(218, 51, 168)
+}
+
+.facebook-bgcolor {
+    background-color: rgb(119, 151, 214)
+}
+
+.twitter-bgcolor {
+    background-color: rgb(175, 223, 255)
+}
+
+.instagram-bgcolor {
+    background-color: rgb(238, 121, 203)
+}
